@@ -1,0 +1,275 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/mhopkins/Desktop/code/liri-node-app
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: LIRI spotify-this-song demo
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1000
+    content: "\e]1337;RemoteHost=mhopkins@mrh-mac13.lan\a\e]1337;CurrentDir=/Users/mhopkins/Desktop/code/liri-node-app\a\e]1337;ShellIntegrationVersion=13;shell=bash\a"
+  - delay: 13
+    content: "\e]7;file://mrh-mac13.lan/Users/mhopkins/Desktop/code/liri-node-app\a\e]133;C;\a\e]1337;RemoteHost=mhopkins@mrh-mac13.lan\a\e]1337;CurrentDir=/Users/mhopkins/Desktop/code/liri-node-app\a\e[?1034h\e]133;D;0\a\e]133;A\amrh-mac13:liri-node-app mhopkins$ \e]133;B\a"
+  - delay: 1000
+    content: 'n'
+  - delay: 207
+    content: o
+  - delay: 105
+    content: d
+  - delay: 111
+    content: e
+  - delay: 224
+    content: ' '
+  - delay: 408
+    content: l
+  - delay: 265
+    content: i
+  - delay: 888
+    content: r
+  - delay: 551
+    content: i
+  - delay: 305
+    content: ' '
+  - delay: 424
+    content: s
+  - delay: 160
+    content: p
+  - delay: 208
+    content: o
+  - delay: 360
+    content: t
+  - delay: 352
+    content: i
+  - delay: 288
+    content: f
+  - delay: 216
+    content: 'y'
+  - delay: 543
+    content: '-'
+  - delay: 377
+    content: t
+  - delay: 192
+    content: h
+  - delay: 128
+    content: i
+  - delay: 496
+    content: s
+  - delay: 375
+    content: '-'
+  - delay: 456
+    content: s
+  - delay: 192
+    content: o
+  - delay: 240
+    content: 'n'
+  - delay: 928
+    content: g
+  - delay: 648
+    content: ' '
+  - delay: 600
+    content: G
+  - delay: 304
+    content: h
+  - delay: 232
+    content: o
+  - delay: 207
+    content: s
+  - delay: 233
+    content: t
+  - delay: 2135
+    content: b
+  - delay: 201
+    content: u
+  - delay: 199
+    content: s
+  - delay: 177
+    content: t
+  - delay: 160
+    content: e
+  - delay: 160
+    content: r
+  - delay: 144
+    content: s
+  - delay: 598
+    content: "\r\n"
+  - delay: 9
+    content: "\e]133;C;\a"
+  - delay: 166
+    content: "this is loaded\r\n"
+  - delay: 527
+    content: "\r\nArtist: Ray Parker, Jr.\r\nSong Title: Ghostbusters\r\nSong Preview: https://p.scdn.co/mp3-preview/fc919929a10a7d712f76c36566321e2048f7daa8?cid=69d62eb5dbaa437f8d4cdefe8f10bda6\r\nAlbum: Arista Heritage Series: Ray Parker\r\n\r\n"
+  - delay: 9
+    content: "\e]7;file://mrh-mac13.lan/Users/mhopkins/Desktop/code/liri-node-app\a\e]1337;RemoteHost=mhopkins@mrh-mac13.lan\a\e]1337;CurrentDir=/Users/mhopkins/Desktop/code/liri-node-app\a\e]133;D;0\a\e]133;A\amrh-mac13:liri-node-app mhopkins$ \e]133;B\a"
+  - delay: 5000
+    content: 'n'
+  - delay: 200
+    content: o
+  - delay: 105
+    content: d
+  - delay: 120
+    content: e
+  - delay: 192
+    content: ' '
+  - delay: 312
+    content: l
+  - delay: 272
+    content: i
+  - delay: 664
+    content: r
+  - delay: 1000
+    content: i
+  - delay: 248
+    content: ' '
+  - delay: 1000
+    content: s
+  - delay: 152
+    content: p
+  - delay: 200
+    content: o
+  - delay: 199
+    content: t
+  - delay: 312
+    content: i
+  - delay: 352
+    content: f
+  - delay: 176
+    content: 'y'
+  - delay: 400
+    content: '-'
+  - delay: 249
+    content: t
+  - delay: 216
+    content: h
+  - delay: 128
+    content: i
+  - delay: 239
+    content: s
+  - delay: 329
+    content: '-'
+  - delay: 1000
+    content: s
+  - delay: 160
+    content: o
+  - delay: 241
+    content: 'n'
+  - delay: 192
+    content: g
+  - delay: 1000
+    content: "\r\n"
+  - delay: 10
+    content: "\e]133;C;\a"
+  - delay: 178
+    content: "this is loaded\r\n"
+  - delay: 524
+    content: "\r\nArtist: Ace of Base\r\nSong Title: The Sign\r\nSong Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=69d62eb5dbaa437f8d4cdefe8f10bda6\r\nAlbum: The Sign (US Album) [Remastered]\r\n\r\n"
+  - delay: 10
+    content: "\e]7;file://mrh-mac13.lan/Users/mhopkins/Desktop/code/liri-node-app\a"
+  - delay: 5
+    content: "\e]1337;RemoteHost=mhopkins@mrh-mac13.lan\a\e]1337;CurrentDir=/Users/mhopkins/Desktop/code/liri-node-app\a\e]133;D;0\a\e]133;A\amrh-mac13:liri-node-app mhopkins$ \e]133;B\a"
+  - delay: 1000
+    content: "\r\n"
