@@ -12,28 +12,22 @@ var request = process.argv[2];
 var target = process.argv[3];
 var search = request + " " + target + "\n";
 
-// var target = process.argv[3];
-
 // formatting results
 var divider = "\n------------------------------------------------------------\n\n";
 var noData = "No data available. Please try a different search.";
 
-// function to perform request based on user input
+// function to perform request from user input
 function liriSearch() {
     switch (request) {
-
         case "concert-this":
             concertThis(target);
             break;
-
         case "spotify-this-song":
             spotifyThis(target);
             break;
-
         case "movie-this":
             movieThis(target);
             break;
-
         case "do-what-it-says":
             doWhatItSays();
             break;
@@ -47,7 +41,8 @@ function liriSearch() {
 }
 
 // node liri.js concert-this <artist/band name here>
-// show next concert for given artist
+// show next concert for artist requested
+// if no artist requested, default to The Cardigans (my choice ;-))
 function concertThis(musician) {
     if (!musician) {
         musician = "The Cardigans";
@@ -60,7 +55,7 @@ function concertThis(musician) {
         // hold the response to the requested info
         var jsonData = response.data[0];
 
-        // note if search fails
+        // log if search fails
         if (response.data.length < 1) {
             fs.appendFile("log.txt", search + noData + divider, function (err) {
                 if (err) throw err;
@@ -73,13 +68,12 @@ function concertThis(musician) {
                 "Date: " + moment(jsonData.datetime).format("MM/DD/YYYY")
             ].join("\n");
 
-            // Append concertInfo to log.txt + print to console
+            // append concertInfo to log.txt and print to console
             fs.appendFile("log.txt", search + musician + "\n" + concertInfo + divider, function (err) {
                 if (err) throw err;
                 console.log("\n" + musician + "\n" + concertInfo + "\n");
             });
         }
-
     })
         // artist not found
         .catch(function (error) {
@@ -87,8 +81,9 @@ function concertThis(musician) {
         })
 }
 
-// `node liri.js spotify-this-song '<song name here>'`
-// show info on given song title
+// node liri.js spotify-this-song <song name here>
+// show info on requested song title
+// if no song requested, default to The Sign by Ace of Base
 function spotifyThis(songName) {
     if (!songName) {
         songName = "The Sign Ace of Base";
@@ -102,10 +97,10 @@ function spotifyThis(songName) {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
-
+        // hold the response to the requested info
         var jsonData = data.tracks.items;
 
-        // note if search fails
+        // log if search fails
         if (jsonData.length < 1) {
             fs.appendFile("log.txt", search + noData + divider, function (err) {
                 if (err) throw err;
@@ -119,7 +114,7 @@ function spotifyThis(songName) {
                 "Album: " + jsonData[0].album.name
             ].join("\n");
 
-            // Append songInfo to log.txt + print to console
+            // append songInfo to log.txt and print to console
             fs.appendFile("log.txt", search + songInfo + divider, function (err) {
                 if (err) throw err;
 
@@ -130,8 +125,9 @@ function spotifyThis(songName) {
     });
 }
 
-// `node liri.js movie-this '<movie name here>'`
-//  give info for given movie title
+// node liri.js movie-this <movie name here>
+// show info for requested movie title
+// if no movie title requested, default to Mr. Nobody
 function movieThis(movie) {
     if (!movie) {
         movie = "Mr. Nobody";
@@ -144,7 +140,7 @@ function movieThis(movie) {
         // hold the response to the requested info
         var jsonData = response.data;
 
-        // note if search fails
+        // log if search fails
         if (jsonData.length < 1) {
             fs.appendFile("log.txt", search + noData + divider, function (err) {
                 if (err) throw err;
@@ -162,7 +158,7 @@ function movieThis(movie) {
                 "Actors: " + jsonData.Actors
             ].join("\n");
 
-            // Append movieInfo to log.txt + print to console
+            // append movieInfo to log.txt and print to console
             fs.appendFile("log.txt", search + movieInfo + divider, function (err) {
                 if (err) throw err;
                 console.log("\n" + movieInfo + "\n");
@@ -172,12 +168,12 @@ function movieThis(movie) {
     })
         // movie not found
         .catch(function (error) {
-            console.log("Error: no such movie found.");
+            console.log("Error: No movie found.");
         })
 }
 
-// `node liri.js do-what-it-says`
-// look in random.txt and run that search
+// node liri.js do-what-it-says
+// read and run search in random.txt
 function doWhatItSays() {
     fs.readFile("random.txt", "utf8", function (err, data) {
         if (err) throw err;
@@ -189,5 +185,5 @@ function doWhatItSays() {
     });
 }
 
-// make LIRI go!
+// start up LIRI Bot
 liriSearch();

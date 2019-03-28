@@ -73,3 +73,217 @@ Song Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6
 Album: The Hits--Chapter One
 ------------------------------------------------------------
 
+spotify-this-song hit me baby one more time
+Artist: J2
+Song Title: Hit Me Baby One More Time (Epic Trailer Version) [feat. Blu Holliday]
+Song Preview: https://p.scdn.co/mp3-preview/1e34f433e141be331c85acf18172fec19ada9f5b?cid=69d62eb5dbaa437f8d4cdefe8f10bda6
+Album: The Iconic Series, Vol. 5
+------------------------------------------------------------
+
+spotify-this-song britney spear hit me baby one more time
+No data available. Please try a different search.
+------------------------------------------------------------
+
+spotify-this-song britney spears hit me baby one more time
+Artist: The Karaoke Machine
+Song Title: Hit me baby one more time (Britney Spears Karaoke Tribute)
+Song Preview: https://p.scdn.co/mp3-preview/59d6d74ab315cb515e21703419c8a3783683f186?cid=69d62eb5dbaa437f8d4cdefe8f10bda6
+Album: The Karaoke Machine Presents - Britney Spears
+------------------------------------------------------------
+
+spotify-this-song britney spears hit me baby one more time
+Artist: The Karaoke Machine
+Song Title: Hit me baby one more time (Britney Spears Karaoke Tribute)
+Song Preview: https://p.scdn.co/mp3-preview/59d6d74ab315cb515e21703419c8a3783683f186?cid=69d62eb5dbaa437f8d4cdefe8f10bda6
+Album: The Karaoke Machine Presents - Britney Spears
+------------------------------------------------------------
+
+spotify-this-song ghostbusters
+Artist: Ray Parker, Jr.
+Song Title: Ghostbusters
+Song Preview: https://p.scdn.co/mp3-preview/fc919929a10a7d712f76c36566321e2048f7daa8?cid=69d62eb5dbaa437f8d4cdefe8f10bda6
+Album: Arista Heritage Series: Ray Parker
+------------------------------------------------------------
+
+spotify-this-song undefined
+Artist: Ace of Base
+Song Title: The Sign
+Song Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=69d62eb5dbaa437f8d4cdefe8f10bda6
+Album: The Sign (US Album) [Remastered]
+------------------------------------------------------------
+
+movie-this wargames
+Title: WarGames
+Release Year: 1983
+IMDB Rating: 7.1/10
+Rotten Tomatoes Rating: 93%
+Country: USA
+Language: English
+Plot: A young man finds a back door into a military central computer in which reality is confused with game-playing, possibly starting World War III.
+Actors: Matthew Broderick, Dabney Coleman, John Wood, Ally Sheedy
+------------------------------------------------------------
+
+movie-this videodrome
+Title: Videodrome
+Release Year: 1983
+IMDB Rating: 7.3/10
+Rotten Tomatoes Rating: 79%
+Country: Canada
+Language: English
+Plot: When he acquires a different kind of show for his station, a sleazy cable-TV programmer begins to see his life and the future of media spin out of control in a terrifying new reality.
+Actors: James Woods, Sonja Smits, Debbie Harry, Peter Dvorsky
+------------------------------------------------------------
+
+movie-this undefined
+Title: Mr. Nobody
+Release Year: 2009
+IMDB Rating: 7.8/10
+Rotten Tomatoes Rating: 67%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+------------------------------------------------------------
+
+concert-this undefined
+The Cardigans
+Venue: Borggården i Trondheim
+Location: Trondheim, Norway
+Date: 08/02/2019
+------------------------------------------------------------
+
+concert-this broods
+broods
+Venue: The Fonda
+Location: Los Angeles, United States
+Date: 03/27/2019
+------------------------------------------------------------
+
+concert-this Broods
+Broods
+Venue: The Observatory North Park
+Location: San Diego, United States
+Date: 03/29/2019
+------------------------------------------------------------
+
+concert-this Tove Lo
+Tove Lo
+Venue: NorthSide Festival
+Location: Aarhus, Denmark
+Date: 06/06/2019
+------------------------------------------------------------
+
+do-what-it-says undefined
+Artist: Backstreet Boys
+Song Title: I Want It That Way
+Song Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=69d62eb5dbaa437f8d4cdefe8f10bda6
+Album: The Hits--Chapter One
+------------------------------------------------------------
+
+do-what-it-says undefined
+Artist: Backstreet Boys
+Song Title: I Want It That Way
+Song Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=69d62eb5dbaa437f8d4cdefe8f10bda6
+Album: The Hits--Chapter One
+------------------------------------------------------------
+
+movie-this wargames
+Title: WarGames
+Release Year: 1983
+IMDB Rating: 7.1/10
+Rotten Tomatoes Rating: 93%
+Country: USA
+Language: English
+Plot: A young man finds a back door into a military central computer in which reality is confused with game-playing, possibly starting World War III.
+Actors: Matthew Broderick, Dabney Coleman, John Wood, Ally Sheedy
+------------------------------------------------------------
+
+concert-this Broods
+Broods
+Venue: The Observatory North Park
+Location: San Diego, United States
+Date: 03/29/2019
+------------------------------------------------------------
+
+concert-this Broods
+Broods
+Venue: The Observatory North Park
+Location: San Diego, United States
+Date: 03/29/2019
+------------------------------------------------------------
+
+concert-this undefined
+The Cardigans
+Venue: Borggården i Trondheim
+Location: Trondheim, Norway
+Date: 08/02/2019
+------------------------------------------------------------
+
+concert-this Broods
+Broods
+Venue: The Observatory North Park
+Location: San Diego, United States
+Date: 03/29/2019
+------------------------------------------------------------
+
+concert-this undefined
+The Cardigans
+Venue: Borggården i Trondheim
+Location: Trondheim, Norway
+Date: 08/02/2019
+------------------------------------------------------------
+
+movie-this Videodrome
+Title: Videodrome
+Release Year: 1983
+IMDB Rating: 7.3/10
+Rotten Tomatoes Rating: 79%
+Country: Canada
+Language: English
+Plot: When he acquires a different kind of show for his station, a sleazy cable-TV programmer begins to see his life and the future of media spin out of control in a terrifying new reality.
+Actors: James Woods, Sonja Smits, Debbie Harry, Peter Dvorsky
+------------------------------------------------------------
+
+movie-this Videodrome
+Title: Videodrome
+Release Year: 1983
+IMDB Rating: 7.3/10
+Rotten Tomatoes Rating: 79%
+Country: Canada
+Language: English
+Plot: When he acquires a different kind of show for his station, a sleazy cable-TV programmer begins to see his life and the future of media spin out of control in a terrifying new reality.
+Actors: James Woods, Sonja Smits, Debbie Harry, Peter Dvorsky
+------------------------------------------------------------
+
+movie-this undefined
+Title: Mr. Nobody
+Release Year: 2009
+IMDB Rating: 7.8/10
+Rotten Tomatoes Rating: 67%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+------------------------------------------------------------
+
+spotify-this-song Ghostbusters
+Artist: Ray Parker, Jr.
+Song Title: Ghostbusters
+Song Preview: https://p.scdn.co/mp3-preview/fc919929a10a7d712f76c36566321e2048f7daa8?cid=69d62eb5dbaa437f8d4cdefe8f10bda6
+Album: Arista Heritage Series: Ray Parker
+------------------------------------------------------------
+
+spotify-this-song undefined
+Artist: Ace of Base
+Song Title: The Sign
+Song Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=69d62eb5dbaa437f8d4cdefe8f10bda6
+Album: The Sign (US Album) [Remastered]
+------------------------------------------------------------
+
+do-what-it-says undefined
+Artist: Backstreet Boys
+Song Title: I Want It That Way
+Song Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=69d62eb5dbaa437f8d4cdefe8f10bda6
+Album: The Hits--Chapter One
+------------------------------------------------------------
+
