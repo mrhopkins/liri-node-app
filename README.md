@@ -119,3 +119,9 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 - [dotenv](https://www.npmjs.com/package/dotenv) - Zero-dependency module that loads environment variables from a .env file into process.env.
 - [moment](https://momentjs.com/) - Parse, validate, manipulate, and display dates and times in JavaScript.
 - [Node Spotify API](https://www.npmjs.com/package/node-spotify-api) - API library for the Spotify REST API.
+
+---
+
+#### Check me out on LinkedIn!
+
+https://linkedin.com/in/matthewrhopkins/
